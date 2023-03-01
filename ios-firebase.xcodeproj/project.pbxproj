@@ -11,6 +11,8 @@
 		867928B629AF8CB800AB5A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867928B529AF8CB800AB5A2E /* ContentView.swift */; };
 		867928B829AF8CB900AB5A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867928B729AF8CB900AB5A2E /* Assets.xcassets */; };
 		867928BB29AF8CB900AB5A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867928BA29AF8CB900AB5A2E /* Preview Assets.xcassets */; };
+		867928C729AF8E2D00AB5A2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867928C629AF8E2D00AB5A2E /* GoogleService-Info.plist */; };
+		867928D429AF9E8300AB5A2E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867928D329AF9E8300AB5A2E /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		867928B529AF8CB800AB5A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		867928B729AF8CB900AB5A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867928BA29AF8CB900AB5A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		867928C629AF8E2D00AB5A2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		867928D329AF9E8300AB5A2E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				867928B329AF8CB800AB5A2E /* ios_firebaseApp.swift */,
 				867928B529AF8CB800AB5A2E /* ContentView.swift */,
+				867928C629AF8E2D00AB5A2E /* GoogleService-Info.plist */,
 				867928B729AF8CB900AB5A2E /* Assets.xcassets */,
 				867928B929AF8CB900AB5A2E /* Preview Content */,
+				867928D329AF9E8300AB5A2E /* ListView.swift */,
 			);
 			path = "ios-firebase";
 			sourceTree = "<group>";
@@ -83,6 +89,8 @@
 			dependencies = (
 			);
 			name = "ios-firebase";
+			packageProductDependencies = (
+			);
 			productName = "ios-firebase";
 			productReference = 867928B029AF8CB800AB5A2E /* ios-firebase.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,8 @@
 				Base,
 			);
 			mainGroup = 867928A729AF8CB800AB5A2E;
+			packageReferences = (
+			);
 			productRefGroup = 867928B129AF8CB800AB5A2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +137,7 @@
 			files = (
 				867928BB29AF8CB900AB5A2E /* Preview Assets.xcassets in Resources */,
 				867928B829AF8CB900AB5A2E /* Assets.xcassets in Resources */,
+				867928C729AF8E2D00AB5A2E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				867928B629AF8CB800AB5A2E /* ContentView.swift in Sources */,
 				867928B429AF8CB800AB5A2E /* ios_firebaseApp.swift in Sources */,
+				867928D429AF9E8300AB5A2E /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios-firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = 44SVK28983;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios-firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = 44SVK28983;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
